@@ -44,7 +44,8 @@ Production build: `npm run build && npm start`.
 ## Project Structure
 
 ```
-app/ or src/        Application source (pages, components, Supabase clients)
-supabase/           SQL functions
+src/                Application source (pages, components, Supabase clients)
+public/             Static assets
+supabase_delete_group_cascade.sql   Database function (cascade delete a group)
 env.example         Environment variable template
 ```
