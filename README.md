@@ -49,7 +49,3 @@ app/ or src/        Application source (pages, components, Supabase clients)
 supabase/           SQL functions
 env.example         Environment variable template
 ```
-
-## My Contribution
-
-<!-- Fill in: what you personally built (e.g. auth flow, expense splitting logic, UI, database schema). -->
