@@ -1,4 +1,3 @@
-(https://github.com/user-attachments/files/33873730/README.md)
 # Contri
 
 Contri is a shared-expense tracker. Users create groups, add expenses, split them among members, record settlements, and see who owes whom.
