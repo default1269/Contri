@@ -1,4 +1,4 @@
-[README.md](https://github.com/user-attachments/files/33873730/README.md)
+(https://github.com/user-attachments/files/33873730/README.md)
 # Contri
 
 Contri is a shared-expense tracker. Users create groups, add expenses, split them among members, record settlements, and see who owes whom.
@@ -14,7 +14,7 @@ Contri is a shared-expense tracker. Users create groups, add expenses, split the
 - Groups with members
 - Expenses split among group members (`expenses`, `expense_splits` tables)
 - Settlements between members
-- Cascade deletion of a group and all its data (`supabase/supabase_delete_group_cascade.sql`)
+- Cascade deletion of a group and all its data (`supabase_delete_group_cascade.sql`)
 
 ## Prerequisites
 
@@ -33,7 +33,7 @@ Contri is a shared-expense tracker. Users create groups, add expenses, split the
    ```
    - `NEXT_PUBLIC_SUPABASE_URL`
    - `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY`
-3. In the Supabase SQL editor, create the tables (`groups`, `group_members`, `expenses`, `expense_splits`, `settlements`), then run `supabase/supabase_delete_group_cascade.sql`.
+3. In the Supabase SQL editor, create the tables (`groups`, `group_members`, `expenses`, `expense_splits`, `settlements`), then run `supabase_delete_group_cascade.sql`.
 4. Start the dev server:
    ```bash
    npm run dev
